@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import "node_modules/modern-normalize/modern-normalize.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* declaracion de variables */
+
+:root {
+  --primary-title-color: #212121;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+
+  --accent-color: #2196f3;
+  --background-black: #2f303a;
+  --background-gray: #f5f4fa;
+  --button-filter: #f5f4fa;
+  --button-primary-hover: #188ce8;
+  --logo-black: #000000;
+  --text-white-opacy: #ffffff99;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  letter-spacing: 0.03em;
+  margin: auto;
+
+  height: 2410px;
+  width: 1600px;
+  left: -1704px;
+  top: -1175px;
+  border-radius: 0px;
+}
+
+.Web-logo {
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: right;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Index html */
+
+.header-link:hover {
+  color: var(--accent-color);
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+}
+
+.tocontact {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.tocontact:hover {
+  color: var(--accent-color);
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.main-requeriment {
+  background-color: var(--background-black);
+  padding: 80px;
+  text-align: center;
+}
+
+.main-h1 {
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-button {
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  text-transform: capitalize;
+  align-items: center;
+}
+.main-button:hover {
+  background-color: var(--button-primary-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title-h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-title-color);
+}
+
+.main-benefits-p {
+    line-height: 24px;
+        /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.title-h2{
+    font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+    
+        color: var(--primary-title-color);
+}
+
+.what-do-images{
+    width: 373.16px;
+}
+
+.members{
+    Width: 270px;
+}
+
+.name {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color:  var(--primary-title-color);
+}
+
+.profession{
+    font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+
+
+
+.location-link {
+    color: var(--primary-white-color);
+    }
+    
+.location-link:hover{
+    color: var(--button-primary-hover);
+}
+
+.link-contact{
+    color: var(--text-white-opacy);
+}
+
+.link-contact:hover {
+    color: var(--button-primary-hover);
+}
+
+footer{
+    background-color: var(--background-black);
+    padding: 10px;
+}
+
+
+
+/* portfolio */
+
+.butt-first{
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.text{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+
+.butt-second{
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.text-black{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+}
+
+.title-image {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color);
+}
+
+.description {
+    color: #757575;
+}
+
+/*.butt-1:hover{
+color: #f63;
+}*/
