@@ -31,6 +31,12 @@ body {
   background-color: var(--primary-white-color);
   letter-spacing: 0.03em;
   margin: auto;
+  
+  /* Principal */
+  
+    position: relative;
+    width: 1600px;
+    height: 2410px;
 
 }
 
@@ -130,11 +136,15 @@ a {
 }
 
 
-.benefits-container {
+.benefits {
   display: flex;
-  margin-left: 30px;
   padding-top: 95px;
   justify-content: space-evenly;
+  
+}
+
+.benefits-column{
+  width: 270px;
 }
 
 .title-h3 {
@@ -204,12 +214,12 @@ a {
 
 .footer-container{
   background-color: var(--background-black);
-  display: flex;
+  display: block;
   padding-bottom: 60px;
   padding-top: 60px;
   padding-left: 20px;
   margin-bottom: 9px;
-  flex-direction: column;
+  
 }
 
 .location-link {
