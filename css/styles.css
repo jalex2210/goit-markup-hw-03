@@ -27,6 +27,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  font-weight: 400;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   letter-spacing: 0.03em;
@@ -58,7 +59,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
-  margin-right: 93px;
 }
 
 
@@ -110,6 +110,7 @@ body {
   text-align: center;
   padding-right: 280px;
   padding-left: 280px;
+ 
 }
 
 .main-button {
@@ -214,18 +215,20 @@ a {
 
 .footer-container{
   background-color: var(--background-black);
-  display: block;
+  display: flexbox;
   padding-bottom: 60px;
   padding-top: 60px;
   padding-left: 20px;
   margin-bottom: 9px;
-  
+}
+
+.address{
+  width: 180px;
 }
 
 .location-link {
   color: var(--primary-white-color);
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
   }  
 .location-link:hover{
@@ -235,10 +238,7 @@ a {
 .link-contact{
   color: var(--text-white-opacy);
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.2;
-  font-weight: 500;
-  text-decoration: none;
+  line-height: 24px;
 }
 .link-contact:hover {
 color: var(--button-primary-hover);
