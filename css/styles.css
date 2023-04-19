@@ -259,38 +259,75 @@ color: var(--button-primary-hover);
 
 /* portfolio */
 
+
+.portfolio-page{
+width: 1170px;
+height: 1360px;
+left: 215px;
+top: 186px;
+}
+
+.filter-container{
+  margin-left: 300px;
+}
+
+.butt {
+  background: #F5F4FA;
+  border-radius: 4px;
+  height: 38px;
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+}
+
+.butt:hover {
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 38px;
+  left: calc(50% - 73px/2 - 268.5px);
+  top: calc(50% - 38px/2 - 735px);
+  background: #2196F3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.filter {
+  display: flex;
+  margin-top: 116px;
+  padding-bottom: 56px;
+  justify-content: center;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--primary-title-color);
+}
+
+/*imagenes*/
+
+
+.mosaic{
+  display: flex;
+}
+
 .card-access{
   background: var(--primary-white-color);
   border: 1px solid #EEEEEE;
   width: 370px;
   height: 404px;
+  margin: 30px;
 }
 
-.card-acces:hover {
-  background: var(--primary-white-color);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.card-access:hover {
+  box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.text{
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-title-color);
-}
-
-.filter{
-    display: flex;
-    margin-top: 116px;
-    padding-bottom: 56px;
-    justify-content: center;
-}
-
-.butt{
-  background: #F5F4FA;
-  border-radius: 4px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
@@ -300,9 +337,15 @@ color: var(--button-primary-hover);
     line-height: 36px;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
+    padding-left: 24px;
+    text-align: left;
+    width: 322px;
 }
 
 .description {
     color: #757575;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 24px;
 }
 
