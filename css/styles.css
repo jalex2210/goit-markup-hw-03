@@ -95,8 +95,8 @@ body {
 /* INDEX */
 /* ---------------------- */
 
-.page-header {
-  border-bottom: 1px solid #ececec;
+header{
+  border-bottom: 1px solid #ECECEC;;
 }
 
 .main-requeriment {
