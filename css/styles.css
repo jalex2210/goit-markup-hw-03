@@ -250,10 +250,12 @@ color: var(--button-primary-hover);
 
 
 .portfolio-page{
-width: 1170px;
-height: 1360px;
-left: 215px;
-top: 186px;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 186px;
+  margin-bottom: 82px;
+  
 }
 
 .filter-container{
@@ -262,29 +264,29 @@ top: 186px;
 }
 
 .butt {
-  background: #F5F4FA;
+  background: var(--background-gray);
   border-radius: 4px;
   height: 38px;
   margin: auto;
   padding-left: 24px;
   padding-right: 24px;
-  border-radius: 4px;
+  border: none;
+  gap: 10px;
 }
 
 .butt:hover {
-  padding-left: 24px;
-  padding-right: 24px;
   height: 38px;
   left: calc(50% - 73px/2 - 268.5px);
   top: calc(50% - 38px/2 - 735px);
-  background: #2196F3;
+  background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .filter {
   display: flex;
-  margin-top: 116px;
+  margin-top: 106px;
   padding-bottom: 56px;
   justify-content: center;
 }
@@ -296,11 +298,19 @@ top: 186px;
   color: var(--primary-title-color);
 }
 
+.text:hover{
+  color: var(--primary-white-color);
+}
+
 /*imagenes*/
 
 
 .mosaic{
   display: flex;
+ 
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .card-access{
@@ -308,7 +318,7 @@ top: 186px;
   border: 1px solid #EEEEEE;
   width: 370px;
   height: 404px;
-  margin: 30px;
+  
 }
 
 .card-access:hover {
@@ -330,6 +340,7 @@ top: 186px;
     padding-left: 24px;
     text-align: left;
     width: 322px;
+    padding-top: 20px;
 }
 
 .description {
