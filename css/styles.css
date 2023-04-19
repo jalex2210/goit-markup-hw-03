@@ -248,6 +248,11 @@ color: var(--button-primary-hover);
 
 /* portfolio */
 
+.body-portfolio{
+width: 1600px;
+height: 1880px;
+
+}
 
 .portfolio-page{
   width: 1170px;
