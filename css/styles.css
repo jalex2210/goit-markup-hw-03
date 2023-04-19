@@ -24,6 +24,7 @@
   --text-white-opacy: #ffffff99;
 }
 
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -34,12 +35,10 @@ body {
   margin: auto;
   
   /* Principal */
-  
-  position: relative;
   width: 1600px;
   height: 2410px;
-
 }
+
 
 .container {
   width: 1200px;
@@ -48,12 +47,10 @@ body {
 
 .nav-container{
   display: flex;
-  padding: 24px;
+  padding: 25px;
   justify-content: space-between;
-  align-items: center;
-  padding-bottom: 24px;
-  padding-top: 25px;
   margin-bottom: 9px;
+  height: 80px;
 }
 
 .Web-logo {
@@ -67,10 +64,11 @@ body {
 
 .header-link {
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
-  margin-right: 50px;
+
+  margin-left: 34px;
 }
 .header-link:hover {
   color: var(--accent-color);
@@ -81,6 +79,13 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  margin-left: 80px;
+  text-align: end;
+  padding: 9px;
+  display: flex;
+  
+
+
 }
 .tocontact:hover {
   color: var(--accent-color);
@@ -125,6 +130,7 @@ body {
   font-weight: 700;
   line-height: 1.9;
   cursor: pointer;
+  margin-top: 30px;
 }
 .main-button:hover {
   background-color: var(--button-primary-hover);
