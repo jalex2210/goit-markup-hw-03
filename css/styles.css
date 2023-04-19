@@ -341,13 +341,24 @@ height: 1880px;
 .title-image {
     font-weight: 700;
     font-size: 18px;
+    line-height: 36px;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
     padding-left: 24px;
     text-align: left;
     width: 322px;
     padding-top: 20px;
-   
+}
+
+.title-image-poster{
+    font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 0.06em;
+      color: var(--primary-title-color);
+      padding-left: 24px;
+      text-align: left;
+      width: 322px;
+      padding-top: 20px;
 }
 
 .description {
@@ -355,6 +366,5 @@ height: 1880px;
     line-height: 30px;
     text-align: left;
     padding-left: 24px;
-    padding-top: 12px;
 }
 
