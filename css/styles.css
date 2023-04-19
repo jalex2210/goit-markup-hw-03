@@ -52,6 +52,14 @@ body {
   height: 80px;
 }
 
+.contact-container{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  height: 80px;
+}
+
 .Web-logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
@@ -65,7 +73,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
-  margin-left: 34px;
+  margin-left: 50px;
 }
 .header-link:hover {
   color: var(--accent-color);
@@ -76,10 +84,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-left: 80px;
-  text-align: end;
-  padding: 9px;
-  display: flex;
+  margin-left: 50px;
 }
 .tocontact:hover {
   color: var(--accent-color);
@@ -196,7 +201,6 @@ a {
   font-weight: 500;
   line-height: 1.2;
   text-align: center;
-    
 }
 
 .profession{
@@ -204,8 +208,7 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
-  text-align: center;
-    
+  text-align: center;  
 }
 
 .footer-container{
@@ -254,7 +257,8 @@ top: 186px;
 }
 
 .filter-container{
-  margin-left: 300px;
+  margin-left: 270px;
+  margin-right: 270px;
 }
 
 .butt {
